@@ -33,28 +33,28 @@ public class SimpleCalculatorTest {
 	}
 	@Test
 	public void testMultiplyNegative() {
-   		SimpleCalculator calculator = new SimpleCalculator();
+   		SimpleCalculator calc = new SimpleCalculator();
     	assertEquals(-12, calc.multiply(-3, 4));
 	}
 	@Test
 	public void testMultiplyByZero() {
-    	SimpleCalculator calculator = new SimpleCalculator();
+    	SimpleCalculator calc = new SimpleCalculator();
     	assertEquals(0, calc.multiply(0, 999));
 	}
 	@Test
 	public void testDivideNegative() {
-    	SimpleCalculator calculator = new SimpleCalculator();
+    	SimpleCalculator calc = new SimpleCalculator();
     	assertEquals(-5, calc.divide(-10, 2));
 	}
 	@Test
 	public void testDivideResultZero() {
-    	SimpleCalculator calculator = new SimpleCalculator();
+    	SimpleCalculator calc = new SimpleCalculator();
     	assertEquals(0, calc.divide(1, 5));
 	}
 	@Test
 	public void testMultiplyTwoNegatives() {
-    	SimpleCalculator calculator = new SimpleCalculator();
-    	assertEquals(20, calculator.multiply(-4, -5));
+    	SimpleCalculator calc = new SimpleCalculator();
+    	assertEquals(20, calc.multiply(-4, -5));
 	}
 	@Test
 	public void testMultiplyLargeNumbers() {
